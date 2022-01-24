@@ -17,12 +17,8 @@ class SplashScreen extends StatelessWidget {
 
         splash:Image.asset(
           'images/splash.jpg',  height: 700,width: 700,),
-
-
         nextScreen: LocationScreen(),
-
         splashTransition: SplashTransition.scaleTransition,
-
         //backgroundColor: Colors.yellowAccent,
 
 
